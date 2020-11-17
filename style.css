@@ -18,19 +18,6 @@ header{
     letter-spacing:0.3px;
 }
 
-a:link{
-    text-decoration: none;
-    color:black;
-}
-
-a:visited{
-    color:black;
-}
-
-a:hover{
-    color:#a84a6f;
-}
-
 .headerimg{
     max-width: 400px;
     height: inherit;
@@ -103,7 +90,19 @@ hr{
     flex-wrap:nowrap;
     align-items:stretch;
     padding:12px;
+}
 
+a:link{
+    text-decoration: none;
+    color:black;
+}
+
+a:visited{
+    color:black;
+}
+
+a:hover{
+    color:#a84a6f;
 }
 
 .text{
